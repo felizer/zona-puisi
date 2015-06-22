@@ -33,4 +33,19 @@
             <column name="password" length="50" not-null="true" />
         </property>
     </class>
+    <class name="com.model.admin.Puisi" table="puisi" catalog="basisdata" optimistic-lock="version">
+
+        <property name="userPengarang" type="string">
+            <column name="userPengarang" length="15" not-null="true" />
+        </property>
+        <property name="judul" type="string">
+            <column name="judul" length="10" not-null="true" />
+        </property>
+        <property name="jenisPuisi" type="string">
+            <column name="jenisPuisi" length="10" not-null="true" />
+        </property>
+        <property name="puisi" type="string">
+            <column name="puisi" length="65535" not-null="true" />
+        </property>
+    </class>
 </hibernate-mapping>

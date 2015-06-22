@@ -13,7 +13,7 @@
             <h1 class="gtext" style="color: red;text-align: center; size:50px;">ZONA PUISI</h1>
             <div id="menu">
                 <ul class="nav nav-tabs nav-justified" id="myTab">
-                    <li class="active"><a href="http://localhost:8080/ZonaPuisi/index.jsp" >HOME</a></li>
+                    <li class="active"><a href="http://localhost:8080/ZonaPuisi/" >HOME</a></li>
                     <li><a href="http://localhost:8080/ZonaPuisi/Login.jsp">LOGIN</a></li>
                 </ul>
             </div>

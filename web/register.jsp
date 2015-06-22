@@ -4,7 +4,8 @@
     Author     : Rayzzy
 --%>
 
-<%@page import="com.logic.admin.HibernateAdminDao"%>
+<%@page import="com.user.controller.userController"%>
+<%@page import="com.logic.admin.adminDao"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
@@ -27,6 +28,7 @@
     if (nama != null && jk != null && alamat != null && email != null && phone != null && username != null && password !=null) {
         
     Admin admin = new Admin();
+    userController uc = new userController();
     
     admin.setNama(nama);
     admin.setJk(jk);
@@ -36,9 +38,8 @@
     admin.setUsername(username);
     admin.setPassword(password);
     
-
-    System.out.println("hai " + admin.getNama()+" id kamu telah terdaftar");
-
+    uc.addAdmin(admin);
+    
     %>
  <html>
     <head>

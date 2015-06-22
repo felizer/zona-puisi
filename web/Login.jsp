@@ -29,11 +29,11 @@
         <form action="register.jsp" method="post">
 	<p>
 		<label>Nama</label>
-		<input type="text" name="nama"/>
+                <input type="text" name="nama" />
 	</p>
 	<p>
 		<label>Kelamin</label>
-		<input type="radio" name="jk" value="Laki-laki" checked/> Laki-laki
+		<input type="radio" name="jk" value="Laki-laki"/> Laki-laki
 		<input type="radio" name="jk" value="Perempuan"/> Perempuan
 	</p>
 	<p>
@@ -68,13 +68,13 @@
             <div class="form-group">
                 <label for="username" class="col-lg-4">Username :</label>
                 <div class="col-lg-8">
-                    <input type="text" name="username" id="username" class="form-control">
+                    <input type="text" name="username" id="username" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">
                 <label for="password" class="col-lg-4">Password :</label>
                 <div class="col-lg-8">
-                    <input type="password" name="password" id="password" class="form-control">
+                    <input type="password" name="password" id="password" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">

@@ -3,4 +3,5 @@
 <hibernate-reverse-engineering>
   <schema-selection match-catalog="basisdata"/>
   <table-filter match-name="admin"/>
+  <table-filter match-name="puisi"/>
 </hibernate-reverse-engineering>
